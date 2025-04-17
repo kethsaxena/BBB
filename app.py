@@ -9,7 +9,7 @@ def home():
         {"rank": 2, "url": "http://nationalarchives.nic.in/", "country": "India"},
         {"rank": 3, "url": "https://www.irctctourism.com/", "country": "India"},
         {"rank": 4, "url": "https://www.ugc.gov.in/#", "country": "India"},
-        {"rank": 5, "url": "https://www.ugc.gov.in/#", "country": "India"},
+        {"rank": 5, "url": "https://www.india.gov.in/", "country": "India"},
     ]
     return render_template("home.html", bad_websites=bad_websites)
 if __name__ == "__main__":
